@@ -1,0 +1,10 @@
+{
+  "messages": [
+    {
+      "type": "unstructured",
+      "unstructured": {
+        "text": "hi"
+      }
+    }
+  ]
+}

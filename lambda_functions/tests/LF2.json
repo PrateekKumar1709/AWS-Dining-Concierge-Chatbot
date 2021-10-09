@@ -1,0 +1,32 @@
+{
+  "MessageId": "",
+  "ReceiptHandle": "",
+  "MD5OfBody": "",
+  "Body": "",
+  "Attributes": {
+    "SentTimestamp": ""
+  },
+  "MD5OfMessageAttributes": "",
+  "MessageAttributes": {
+    "cuisine_type": {
+      "StringValue": "",
+      "DataType": "String"
+    },
+    "location": {
+      "StringValue": "",
+      "DataType": "String"
+    },
+    "number_of_people": {
+      "StringValue": "",
+      "DataType": "String"
+    },
+    "phone_number": {
+      "StringValue": "",
+      "DataType": "String"
+    },
+    "time": {
+      "StringValue": "",
+      "DataType": "String"
+    }
+  }
+}
