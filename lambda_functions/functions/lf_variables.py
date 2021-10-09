@@ -9,10 +9,10 @@ import random
 import urllib3
 import os
 
-QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/244220539866/Q1'
+QUEUE_URL = ''
 
-ES_USER = 'prateek'
-ES_PASS = 'Prateek@1709'
-ES_QUERY = "https://search-restaurants-tjdy4o57veqr6t73mf4rgl4o44.us-east-1.es.amazonaws.com/restaurants/_search?q={cuisine}&size={size_limit}"
+ES_USER = ''
+ES_PASS = ''
+ES_QUERY = ""
 
 DYNAMO_DB_TABLE_NAME = 'yelp-restaurants'
