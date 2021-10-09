@@ -49,7 +49,7 @@ def get_random_business_id(cuisine_type):
         size_limit=3
         )
     http = urllib3.PoolManager()
-    headers = urllib3.make_headers(basic_auth='prateek:Prateek@1709')
+    headers = urllib3.make_headers(basic_auth=':')
     response = http.request('GET', es_query, headers=headers)
     result = json.loads(response.data.decode('utf-8'))
     random_num_list = list(range(3))
@@ -87,7 +87,7 @@ def send_plain_email(sendMessage):
     ses_client.send_email(
         Destination={
             "ToAddresses": [
-                "pk2460@nyu.edu",
+                "",
             ],
         },
         Message={
@@ -102,5 +102,5 @@ def send_plain_email(sendMessage):
                 "Data": "Dining Concierge Chatbot",
             },
         },
-        Source="pk2460@nyu.edu",
+        Source="",
     )
