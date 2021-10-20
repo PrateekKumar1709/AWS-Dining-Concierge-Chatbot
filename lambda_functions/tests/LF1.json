@@ -13,11 +13,11 @@
     "name": "DiningSuggestionsIntent",
     "slots": {
       "Location": "Manhattan",
-      "BookingDate": "2021-10-10",
+      "BookingDate": "2021-10-31",
       "Cuisine": "indian",
-      "BookingTime": "12:00",
-      "NoOfPeople": "5",
-      "EMail": "prateekkumar1709@gmail"
+      "BookingTime": "15:00",
+      "NoOfPeople": "15",
+      "EMail": "pk2460@nyu.edu"
     },
     "confirmationStatus": "None"
   }
